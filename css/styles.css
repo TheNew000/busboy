@@ -1,0 +1,165 @@
+/* line 1, ../compass/sass/components/_card.scss */
+.card {
+  padding: 15px;
+  -webkit-box-shadow: 0 3px 3px 1px #999999;
+  -moz-box-shadow: 0 3px 3px 1px #999999;
+  box-shadow: 0 3px 3px 1px #999999;
+  border-radius: 2px;
+}
+
+/* line 9, ../compass/sass/components/_card.scss */
+.data-content {
+  max-height: 600px;
+  overflow: scroll;
+}
+
+/* line 14, ../compass/sass/components/_card.scss */
+.scroll {
+  border: 0;
+  border-collapse: collapse;
+}
+
+/* line 19, ../compass/sass/components/_card.scss */
+.scroll tr {
+  display: flex;
+}
+
+/* line 23, ../compass/sass/components/_card.scss */
+.scroll td {
+  padding: 3px;
+  flex: 1 auto;
+  width: 1px;
+}
+
+/* line 29, ../compass/sass/components/_card.scss */
+.scroll thead tr:after {
+  content: '';
+  overflow-y: scroll;
+  visibility: hidden;
+  height: 0;
+}
+
+/* line 36, ../compass/sass/components/_card.scss */
+.scroll thead th {
+  flex: 1 auto;
+  display: block;
+}
+
+/* line 41, ../compass/sass/components/_card.scss */
+.scroll tbody {
+  display: block;
+  width: 100%;
+  overflow-y: auto;
+  height: 500px;
+}
+
+/* line 3, ../compass/sass/styles.scss */
+body {
+  background-color: #fcfcfc;
+}
+
+/* line 8, ../compass/sass/styles.scss */
+.homepage-hero-module {
+  border-right: none;
+  border-left: none;
+  position: relative;
+}
+
+/* line 13, ../compass/sass/styles.scss */
+.no-video .video-container video,
+.touch .video-container video {
+  display: none;
+}
+
+/* line 17, ../compass/sass/styles.scss */
+.no-video .video-container .poster,
+.touch .video-container .poster {
+  display: block !important;
+}
+
+/* line 21, ../compass/sass/styles.scss */
+.video-container {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-image: url(../../img/Coffee-Shot.jpg);
+}
+
+/* line 30, ../compass/sass/styles.scss */
+.video-container .poster img {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+
+/* line 35, ../compass/sass/styles.scss */
+.video-container .filter {
+  z-index: 100;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+}
+
+/* line 41, ../compass/sass/styles.scss */
+.video-container video {
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+}
+
+/* line 46, ../compass/sass/styles.scss */
+.video-container video.fillWidth {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+/* line 52, ../compass/sass/styles.scss */
+.top {
+  text-align: center;
+  margin-left: 0;
+  height: 100vh;
+  position: relative;
+}
+
+/* line 59, ../compass/sass/styles.scss */
+.top-wrapper {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+/* line 66, ../compass/sass/styles.scss */
+.top h1 {
+  color: white;
+  font-size: 120px;
+  font-family: 'Candal', sans-serif;
+  font-weight: 300;
+  text-shadow: 2px 2px 2px black;
+  padding: 50px;
+}
+
+/* line 75, ../compass/sass/styles.scss */
+.top p {
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+  text-shadow: 1px 1px 2px black;
+}
+
+/* line 84, ../compass/sass/styles.scss */
+.navbar-brand {
+  font-size: 36px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* line 89, ../compass/sass/styles.scss */
+.content {
+  margin-top: 100px;
+}

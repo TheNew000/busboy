@@ -1,0 +1,16 @@
+<div class="container content">
+    <h1>Data Per Person</h1>
+    <hr>
+
+    <div class="row">
+        <div class="col-md-4" ng-repeat="entry in tipData">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h3>{{entry.name}}</h3>
+                    <hr>
+                    <a ng-href="#/data/{{entry.name}}" class="btn btn-lg btn-block btn-info">View Data</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
